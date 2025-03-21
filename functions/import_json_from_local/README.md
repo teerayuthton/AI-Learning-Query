@@ -1,5 +1,8 @@
 # How to load Json file from local
 
+![Screenshot 2568-03-21 at 22 18 30](https://github.com/user-attachments/assets/dd80c97a-f543-4ad0-960a-d79c3699bbf2)
+
+
 ```
 import json
 ```
@@ -45,6 +48,3 @@ except ValueError as e:
 1. Catches the ValueError.
 2. Prints an error message (Error reading JSON file: <error message>).
 3. Returns an empty dictionary ({}) instead of crashing.
-
-
-![Screenshot 2568-03-21 at 18 03 13](https://github.com/user-attachments/assets/dd3379da-9086-4cf8-a85c-6372588c5eee)
