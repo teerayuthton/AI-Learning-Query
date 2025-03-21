@@ -1,12 +1,8 @@
-from pathlib import Path
 import sys
+sys.path.append('../')
 
-current_dir = Path(__file__).parent
-functions_dir = current_dir.parent / "functions"
-sys.path.append(str(functions_dir))
-
-from import_json_from_local import import_json
-from embedding_functions import create_embeddings, create_product_text, find_n_closest
+from functions.import_json_from_local.import_json_from_local import import_json
+from functions.embedding_functions.embedding_functions import create_embeddings, create_product_text, find_n_closest
 
 products = import_json("products.json")
 
