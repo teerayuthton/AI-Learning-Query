@@ -58,6 +58,10 @@ Features: 6.5-inch AMOLED display, Quad-camera system with 48MP main sensor, Fac
 ```
 [[0.027226606383919716, -0.0037901306059211493, -0.033660367131233215,...]]
 ```
+- When we avoid the nested issue, It will be like this.
+```
+[0.027226606383919716, -0.0037901306059211493, -0.033660367131233215,...]
+```
 
 `create_product_text`
 - This function will transform from ductionary to be once text.
