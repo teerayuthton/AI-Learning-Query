@@ -54,7 +54,7 @@ Features: 6.5-inch AMOLED display, Quad-camera system with 48MP main sensor, Fac
 ...
 ]
 ```
-- The result after use this function.
+- The result after use this function. *Since the result is a nested list we can access it by `create_embeddings(query_text)[0]`
 ```
 [[0.027226606383919716, -0.0037901306059211493, -0.033660367131233215,...]]
 ```
