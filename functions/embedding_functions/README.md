@@ -13,6 +13,11 @@ Question: Why we need to embedding before search?
 Answer: We can't use text for search to find the meaning, We need to change it to be numerical(Vector) then we will use math matic
 to find closest points of the Query and Datasets.
 
+Example query
+**[Example Semantic search](https://github.com/teerayuthton/AI-Learning-Query/blob/main/query_commands/query_semantic_search_products.py)**  
+
+
+
 # Functions and Data stucture
 
 ![Screenshot 2568-03-24 at 13 36 51](https://github.com/user-attachments/assets/aaa68cda-9774-4ae9-93f4-51b2e434f8fa)
