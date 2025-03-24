@@ -15,11 +15,6 @@ def create_embeddings(texts):
   response_dict = response.model_dump()
   return [data['embedding'] for data in response_dict['data']]
 
-def create_financial_text(financial):
-  return f"""Title: {financial['title']}
-  Text: {financial['text']}
-  URL: {financial['url']}"""
-
 def create_product_text(product):
   return f"""Title: {product['title']}
 Description: {product['short_description']}
